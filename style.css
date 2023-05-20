@@ -1,0 +1,11 @@
+img{
+  border-radius: 12px;
+  align-self: auto center;
+}
+button
+{
+  cursor: pointer;
+  border-style:rigid;
+  text-align: center;
+  align-items: center;
+}
