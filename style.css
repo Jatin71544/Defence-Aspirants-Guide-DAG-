@@ -2,10 +2,43 @@ img{
   border-radius: 12px;
   align-self: auto center;
 }
+
 button
 {
   cursor: pointer;
   border-style:rigid;
   text-align: center;
   align-items: center;
+}
+
+#lable1{
+  size:44px;
+  color:white;
+}
+
+#gobutton
+{
+  color:black;
+  background-color: lightslategray;
+  background-color: white;
+}
+
+#heading1{
+  color:white;
+}
+
+#goresult{
+  color:white;
+}
+
+#background1{
+  background-color: black;
+}
+
+#background2{
+  background-color: black;
+}
+
+#background3{
+  background-color: black;
 }
