@@ -154,19 +154,19 @@ button  /* {for all buttons} */
 #buttonToIndianArmy{
   background-color: OliveDrab;
   height: 88px;
-  width: 322px;
+  width: 300px;
 }
 
 #buttonToIndianAirForce{
   background-color: LightSkyBlue;
   height: 88px;
-  width: 390px;
+  width: 377px;
 }
 
 #buttonToIndianNavy{
   background-color: navy;
   height: 88px;
-  width: 333px;
+  width: 322px;
 }
 
 #buttonToAgeCalculator{
@@ -205,5 +205,4 @@ button  /* {for all buttons} */
 img{
   border-radius: 22px;
 }
-
 
