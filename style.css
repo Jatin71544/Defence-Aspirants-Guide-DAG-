@@ -1,26 +1,104 @@
-img{
-  border-radius: 12px;
-  align-self: auto center;
+/* Index :
+1. Fonts
+2. Paragraphs
+3. Background
+4. Button
+5. Image 
+*/
+
+/* {1. Fonts: } */
+#fontCommon{
+  color: white;
+  font-size: 48px;
+  font-style: normal;
 }
 
-button
-{
-  cursor: pointer;
-  border-style:rigid;
-  text-align: center;
-  align-items: center;
+#fontHeadingItalic{
+  color: white;
+  font-size: 60px;
+  font-style: italic;
+}
+
+#fontHeadingNormal1{
+  color: white;
+  font-size: 60px;
+  font-style: normal;
+}
+
+#fontHeadingNormal2{
+  color: white;
+  font-size: 55px;
+  font-style: normal;
+}
+
+#fontHeadingNormal3{
+  color: white;
+  font-size: 50px;
+  font-style: normal;
+}
+
+#fontQue{
+  color: olivedrab;
+  font-size: 50px;
+  font-style: normal;
+}
+
+#fontQueHeading{
+  color: olivedrab;
+  font-size: 60px;
+  font-style: italic;
+}
+
+
+/* {2. Paragraphs: } */
+#about{
+  color: white;
+  font-size: 33px;
+}
+
+#GitHubButtonText{
+  color: white;
+  font-size: 44px;
+}
+
+#IndianArmyButtonText{
+  color:white;
+  font-size: 44px;
+}
+
+#IndianAirForceButtonText{
+  color: white;
+  font-size: 44px;
+}
+
+#IndianNavyButtonText{
+  color: white;
+  font-size: 44px;
+}
+
+#ageCalculatorButtonText{
+  color: white;
+  font-size: 44px;
+}
+
+#GitHubQbuttonText{
+  color: white;
+  font-size: 40px;
+}
+
+#LinkedInQbuttonText{
+  color: white;
+  font-size: 44px;
+}
+
+#TwitterQbuttonText{
+  color: white;
+  font-size: 44px;
 }
 
 #lable1{
   size:44px;
   color:white;
-}
-
-#gobutton
-{
-  color:black;
-  background-color: lightslategray;
-  background-color: white;
 }
 
 #heading1{
@@ -31,7 +109,9 @@ button
   color:white;
 }
 
-#background1{
+
+/* {3. Backgrounds:  } */
+#background{
   background-color: black;
 }
 
@@ -42,3 +122,88 @@ button
 #background3{
   background-color: black;
 }
+
+#BottomBackground{
+  background-color: lightslategray;
+}
+
+
+/* {4. Button: } */
+button  /* {for all buttons} */
+{
+  border-color: white;
+  cursor: pointer;
+  border-style: rigid;
+  border-radius: 44px;
+  font-style: normal;
+  font-size: 44px;
+}
+
+#buttonToAbout{
+  background-color: lightslategrey;
+  height: 58px;
+  width: 222px;
+}
+
+#buttonToGitHub{
+  background-color: LightSlateGrey;
+  height: 88px;
+  width: 744px;
+}
+
+#buttonToIndianArmy{
+  background-color: OliveDrab;
+  height: 88px;
+  width: 322px;
+}
+
+#buttonToIndianAirForce{
+  background-color: LightSkyBlue;
+  height: 88px;
+  width: 390px;
+}
+
+#buttonToIndianNavy{
+  background-color: navy;
+  height: 88px;
+  width: 333px;
+}
+
+#buttonToAgeCalculator{
+  background-color: lightslategrey;
+  height: 88px;
+  width: 444px;
+}
+
+#QbuttonToGitHub{
+  background-color: lightslategray;
+  height: 80px;
+  width: 688px;
+}
+
+#QbuttonToLinkdIn{
+  background-color: rgb(0, 104, 224);
+  height: 80px;
+  width: 400px;
+}
+
+#QbuttonToTwitter{
+  background-color:rgb(1, 183, 255);
+  height: 80px;
+  width: 377px;
+}
+
+#gobutton
+{
+  color:black;
+  background-color: lightslategray;
+  background-color: white;
+}
+
+
+/* {5. Image: } */
+img{
+  border-radius: 22px;
+}
+
+
