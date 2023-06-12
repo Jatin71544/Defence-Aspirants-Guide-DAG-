@@ -204,8 +204,10 @@ img{
   border-radius: 22px;
 }
 
+
 /* (6. Input box: } */
 #dateInput{
+  color: black;
   height: 48px;
   width: 222px;
   font-size: 30px;
