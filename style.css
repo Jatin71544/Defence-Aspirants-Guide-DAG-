@@ -4,6 +4,7 @@
 3. Background
 4. Button
 5. Image 
+6. Input box
 */
 
 /* {1. Fonts: } */
@@ -111,8 +112,10 @@
   color:white;
 }
 
-#goresult{
+#result{
   color:white;
+  font-size: 48px;
+  background-color: lightslategray;
 }
 
 
@@ -190,15 +193,20 @@ button  /* {for all buttons} */
   width: 400px;
 }
 
-#gobutton
-{
-  color:black;
+#checkEligibilityButton{
+  color:white;
   background-color: lightslategray;
-  background-color: white;
 }
 
 
 /* {5. Image: } */
 img{
   border-radius: 22px;
+}
+
+/* (6. Input box: } */
+#dateInput{
+  height: 48px;
+  width: 222px;
+  font-size: 30px;
 }
