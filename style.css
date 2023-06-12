@@ -7,6 +7,12 @@
 */
 
 /* {1. Fonts: } */
+#mainHeading{
+  color: OliveDrab;
+  text-align: center;
+  font-size: 80px;
+}
+
 #fontCommon{
   color: white;
   font-size: 48px;
@@ -115,14 +121,6 @@
   background-color: black;
 }
 
-#background2{
-  background-color: black;
-}
-
-#background3{
-  background-color: black;
-}
-
 #BottomBackground{
   background-color: lightslategray;
 }
@@ -131,7 +129,6 @@
 /* {4. Button: } */
 button  /* {for all buttons} */
 {
-  border-color: white;
   cursor: pointer;
   border-style: rigid;
   border-radius: 44px;
@@ -142,43 +139,43 @@ button  /* {for all buttons} */
 #buttonToAbout{
   background-color: lightslategrey;
   height: 58px;
-  width: 222px;
+  width: 208px;
 }
 
 #buttonToGitHub{
   background-color: LightSlateGrey;
   height: 88px;
-  width: 744px;
+  width: 707px;
 }
 
 #buttonToIndianArmy{
   background-color: OliveDrab;
   height: 88px;
-  width: 300px;
+  width: 280px;
 }
 
 #buttonToIndianAirForce{
   background-color: LightSkyBlue;
   height: 88px;
-  width: 377px;
+  width: 344px;
 }
 
 #buttonToIndianNavy{
   background-color: navy;
   height: 88px;
-  width: 322px;
+  width: 300px;
 }
 
 #buttonToAgeCalculator{
   background-color: lightslategrey;
   height: 88px;
-  width: 444px;
+  width: 360px;
 }
 
 #QbuttonToGitHub{
   background-color: lightslategray;
   height: 80px;
-  width: 377px;
+  width: 400px;
 }
 
 #QbuttonToLinkdIn{
@@ -190,7 +187,7 @@ button  /* {for all buttons} */
 #QbuttonToTwitter{
   background-color:rgb(1, 183, 255);
   height: 80px;
-  width: 377px;
+  width: 400px;
 }
 
 #gobutton
@@ -205,4 +202,3 @@ button  /* {for all buttons} */
 img{
   border-radius: 22px;
 }
-
