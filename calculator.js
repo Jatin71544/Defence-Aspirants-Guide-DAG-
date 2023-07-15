@@ -1,3 +1,5 @@
+//It will require update in every 6 months
+
 function checkEligibility() {
   // Retrieve the input value
   var dateInput = document.getElementById('dateInput').value;
