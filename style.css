@@ -132,7 +132,7 @@
 /* {4. Button: } */
 button  /* {for all buttons} */
 {
-  font-weight:lighter;
+  font-weight: 400;
   cursor: pointer;
   border-style: rigid;
   border-radius: 22px;
