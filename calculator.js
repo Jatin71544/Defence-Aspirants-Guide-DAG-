@@ -8,12 +8,12 @@ function checkEligibility() {
   var inputDate = new Date(dateInput);
 
   // Define the eligibility criteria dates
-  var minEligibleDate = new Date('2000-07-02');
-  var maxEligibleDate = new Date('2005-07-01');
+  var minEligibleDate = new Date('2001-01-02');
+  var maxEligibleDate = new Date('2006-01-01');
 
   // Check if the input date is within the eligibility range
   if (inputDate >= minEligibleDate && inputDate <= maxEligibleDate) {
-    document.getElementById('result').textContent = 'You are eligible! Note: (Upper age limit for candidates holding valid and current Commercial Pilot Licence issued by DGCA (India) is relaxable upto 26 yrs,in short +2 years or attempts.';
+    document.getElementById('result').textContent = 'You are eligible for IMA, IAF, INA !! & Note: (Upper age limit for candidates holding valid and current Commercial Pilot Licence issued by DGCA (India) is relaxable upto 26 yrs,in short +2 years or attempts.';
   } else {
     document.getElementById('result').textContent = 'Sorry, You are not eligible.';
   }

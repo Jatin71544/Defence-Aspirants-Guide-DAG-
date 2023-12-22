@@ -98,7 +98,7 @@
   font-size: 44px;
 }
 
-#TwitterQbuttonText{
+#XQbuttonText{
   color: white;
   font-size: 44px;
 }
@@ -138,8 +138,8 @@ button  /* {for all buttons} */
   border-radius: 22px;
   font-style: normal;
   font-size: 44px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 6px;
   padding-right: 6px;
   margin-top: 8px;
@@ -204,8 +204,8 @@ button:active{
   width: 388px;
 }
 
-#QbuttonToTwitter{
-  background-color:rgb(1, 183, 255);
+#QbuttonToX{
+  background-color:black;
   height: 80px;
   width: 355px;
 }
