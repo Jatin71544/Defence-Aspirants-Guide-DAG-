@@ -5,6 +5,7 @@
 4. Button
 5. Image 
 6. Input box
+7. Display
 */
 
 /* {1. Fonts: } */
@@ -85,7 +86,7 @@
 
 #ageCalculatorButtonText{
   color: white;
-  font-size: 44px;
+  font-size: 40px;
 }
 
 #GitHubQbuttonText{
@@ -240,6 +241,17 @@ img{
 }
 
 
+/* (7. Display: } */
+.SocialContainers {
+  display:flex;
+}
+.icon {
+  flex-direction: row;
+  padding:8px;
+}
+
+
+
 /* 
 Extras : {Please Ignore}
 
@@ -252,5 +264,16 @@ Extras : {Please Ignore}
   box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15); //for adding shadow
   transition: opacity 0.2s;// adds transition can add as many attributes fot transition like colour rtc
 
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc)*/
+/*
+.column {
+  float: left;
+}
+.row::after {
+  content:"";
+  clear: both;
+  display: table;
 }
 */
