@@ -1,4 +1,5 @@
-//It will require update in every 6 months
+//It'll require update in every 6 months
+// Last Updated on Jan 2024
 
 function checkEligibility() {
   // Retrieve the input value

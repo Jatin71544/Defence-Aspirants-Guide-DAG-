@@ -117,6 +117,7 @@
   color:white;
   font-size: 48px;
   background-color: lightslategray;
+  border-radius: 22px ;
 }
 
 
@@ -245,7 +246,7 @@ img{
 .SocialContainers {
   display:flex;
 }
-.icon {
+.icons {
   flex-direction: row;
   padding:8px;
 }
